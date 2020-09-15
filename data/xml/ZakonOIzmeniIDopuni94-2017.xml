@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 file:/C:/Users/Damir/Desktop/Diplomski/akoma%20ntoso/akomantoso30.xsd">
+    <act name="ZakonOIzmeniIDopuni94">
+        <meta>
+            <identification source="http://www.oxygenxml.com/">
+                <FRBRWork>
+                    <FRBRthis value="/akn/srb/act/2017-10-19/!main"/>
+                    <FRBRuri value="/akn/srb/act/2017-10-19"/>
+                    <FRBRdate date="2017-10-19" name="Generation"/>
+                    <FRBRauthor href="#pravnoinfsistem" as="#author"/>
+                    <FRBRcountry value="srb"/>
+                    <FRBRname value="publicLaw"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/srb/act/2017-10-19/srb@/!main"/>
+                    <FRBRuri value="/akn/srb/act/2017-10-19/srb@"/>
+                    <FRBRdate date="2017-10-27" name="Generation"/>
+                    <FRBRauthor href="" as="#editor"/>
+                    <FRBRlanguage language="eng"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/srb/act/2017-10-19/srb@/!main.xml"/>
+                    <FRBRuri value="/akn/srb/act/2017-10-19/srb@.akn"/>
+                    <FRBRdate date="2017-10-27" name="Generation"/>
+                    <FRBRauthor href="" as="#editor"/>
+                </FRBRManifestation>
+            </identification>
+            <analysis source="#somebody">
+                <activeModifications>
+                    <textualMod eId="amod1" type="substitution">
+                        <source href="#mod1"/>
+                        <destination href="/akn/srb/act/2016-01-28~art5-p1"/>
+                        <old href="#mod1-str1"/>
+                        <new href="#mod1-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod2" type="substitution">
+                        <source href="#mod2"/>
+                        <destination href="/akn/srb/act/2016-01-28~art18-p2"/>
+                        <new href="#mod2-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod3" type="insertion">
+                        <source href="#mod3"/>
+                        <destination href="/akn/srb/act/2016-01-28~art6" pos="before"/>
+                        <new href="#mod3-str1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+        </meta>
+        <preface>
+            <p class="number">3905</p>
+            <p>
+                На основу <mref>члана 112. став 1. тачка 2. Устава Републике Србије</mref>,
+                доносим
+            </p>
+            <p> УКАЗ о проглашењу Закона о изменама Закона о информационој безбедности</p>
+            <p>Проглашава се Закон о изменама Закона о информационој безбедности, који је донела Народна скупштина Републике Србије,
+                на Првој седници Другог редовног заседања, <date date="2017-10-17">17. октобра 2017. године.</date></p>
+            <p>ПР број 48</p>
+            <p>У <location refersTo="Belgrade">Београду </location>, <date date="2017-10-19">19. октобра 2017. године </date></p>
+            <p>Председник Републике,</p>
+            <p>Александар Вучић, с.р.</p>
+        </preface>
+        <preamble>
+            <p>
+                <docTitle>
+                    <docType>ЗАКОН</docType>
+                    о изменама Закона о информационој безбедности
+                </docTitle>
+            </p>
+        </preamble>
+        <body>
+            <article>
+                <num>Члан 1.</num>
+                <content>
+                    <p>
+                        <mod eId="mod1">
+                        У Закону о информационој безбедности („Службени гласник РС”, број 6/16), у члану 5. став 1. речи:
+                        „<quotedText eId="mod1-str1">Управе за заједничке послове републичких органа</quotedText>”
+                            замењују се речима: „<quotedText eId="mod1-str2">ЦЕРТ-а републичких органа</quotedText>”.
+                        </mod>
+                    </p>
+                </content>
+            </article>
+            <article>
+                <num>Члан 2.</num>
+                <content>
+                    <p>
+                        У члану 18. став 2. мења се и гласи:„
+                        <mod eId="mod2">
+                            <quotedStructure eId="mod2-str1">
+                                <p eId="art18-p2">
+                                Послове ЦЕРТ-а републичких органа обавља орган надлежан за пројектовање, развој, изградњу, одржавање и унапређење рачунарске мреже републичких органа.
+                                </p>
+                            </quotedStructure>
+                        </mod>”.
+                    </p>
+                </content>
+            </article>
+            <article>
+                <num>Члан 3.</num>
+                <content>
+                    <p>
+                        Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.
+                    </p>
+                </content>
+            </article>
+            <article>
+                <num>Члан 5.</num>
+                <content>
+                    <p>
+                        После члана 6. додају се чл. 6а и 6б, који гласе:
+                    </p>
+                    <p>
+                       "
+                        <mod eId="mod3">
+                            <quotedStructure eId="mod3-str1">
+                                <article eId="art6a">
+                                    <num>Члан 6а</num>
+                                    <heading>Обавезе оператора ИКТ система од посебног значаја</heading>
+                                    <content>
+                                        <p>Оператор ИКТ система од посебног значаја у складу са овим законом у обавези је да:</p>
+                                        <blockList>
+                                            <item eId="art6a_item1">
+                                                <num>1)</num>
+                                                <p>упише ИКТ систем од посебног значаја којим управља у евиденцију оператора ИКТ система од посебног значаја;</p>
+                                            </item>
+                                            <item eId="art6a_item2">
+                                                <num>2)</num>
+                                                <p>предузме мере заштите ИКТ система од посебног значаја;</p>
+                                            </item>
+                                            <item eId="art6a_item3">
+                                                <num>3)</num>
+                                                <p>донесе акт о безбедности ИКТ система;</p>
+                                            </item>
+                                            <item eId="art6a_item4">
+                                                <num>4)</num>
+                                                <p>врши проверу усклађености примењених мера заштите ИКТ система са актом о безбедности ИКТ система и то најмање једном годишње;</p>
+                                            </item>
+                                            <item eId="art6a_item5">
+                                                <num>5)</num>
+                                                <p>уреди однос са трећим лицима на начин који обезбеђује предузимање мера заштите тог ИКТ система у складу са законом, уколико поверава активности у вези са ИКТ системом од посебног значаја трећим лицима;</p>
+                                            </item>
+                                            <item eId="art6a_item6">
+                                                <num>6)</num>
+                                                <p>доставља обавештења о инцидентима који значајно угрожавају информациону безбедност ИКТ система;</p>
+                                            </item>
+                                            <item eId="art6a_item7">
+                                                <num>7)</num>
+                                                <p>достави тачне статистичке податке о инцидентима у ИКТ систему.</p>
+                                            </item>
+                                        </blockList>
+                                    </content>
+                                </article>
+                            </quotedStructure>
+                        </mod>
+                    </p>
+                </content>
+            </article>
+        </body>
+    </act>
+</akomaNtoso>
