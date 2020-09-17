@@ -201,14 +201,13 @@ public class XmlRWUtil implements ErrorHandler{
 			}
 		}
 		
-		System.out.println("All changes applied");
+		System.out.println("[INFO] All changes applied");
 		
 		Transformer transformer = null;
 		try {
 			transformer = transformerFactory.newTransformer();
 		} catch (TransformerConfigurationException e) {
 			System.out.println("Something went wrong with transformer");
-			//e.printStackTrace();
 		}
 
 		transformer.setOutputProperty("{http://xml.apache.org/xalan}indent-amount", "2");
@@ -336,13 +335,15 @@ public class XmlRWUtil implements ErrorHandler{
 		ComparisonType answer;
 		
 		for(int i=0, j=0;i< firstDocument.getLength(); i++, j++) {
+			System.out.println();
+			System.out.println("[INFO] Comparing next article:");
 			answer = compareArticle((Element)firstDocument.item(i),(Element)secondDocument.item(j));
 			art_id = ((Element)firstDocument.item(i)).getAttribute("eId");
 			
 			if(answer == ComparisonType.NEW_ARTICLE) {
 				i--;
 			}else {
-				System.out.println("Article[" + art_id + "] -> " + answer);
+				System.out.println("[INFO] Article  with eId <" + art_id + "> : " + answer);
 			}
 		}
 	}
@@ -358,7 +359,7 @@ public class XmlRWUtil implements ErrorHandler{
 		}
 		
 		if(!num1.getTextContent().equals(num2.getTextContent())) {
-			System.out.println("There is new article added --> " + num2.getTextContent());
+			System.out.println("[INFO] New article added : <" + num2.getTextContent() + ">");
 			return ComparisonType.NEW_ARTICLE;
 		}
 		
@@ -385,21 +386,21 @@ public class XmlRWUtil implements ErrorHandler{
 		return ComparisonType.SAME_ARTICLE;
 	}
 	
-	// Needs to register new pharagraphs
+	// Needs to register new paragraphs
 	private boolean compareContent(Element content1, Element content2) {
-		ArrayList<Element> pharagraphs1 = getChildNodesByTagname(content1, "p");
-		ArrayList<Element> pharagraphs2 = getChildNodesByTagname(content2, "p");
+		ArrayList<Element> paragraphs1 = getChildNodesByTagname(content1, "p");
+		ArrayList<Element> paragraphs2 = getChildNodesByTagname(content2, "p");
 		boolean retVal = true;
 		int k=0;																				//eId pairs found
 		
-		for(int i=0; i<pharagraphs1.size(); i++) {
-			for(int j=0; j<pharagraphs2.size();j++) {
+		for(int i=0; i<paragraphs1.size(); i++) {
+			for(int j=0; j<paragraphs2.size();j++) {
 				
 				// When you find maching eId <p>, compare it
-				if(pharagraphs1.get(i).getAttribute("eId").equals(pharagraphs2.get(j).getAttribute("eId"))) {
+				if(paragraphs1.get(i).getAttribute("eId").equals(paragraphs2.get(j).getAttribute("eId"))) {
 					k++;
 					
-					if(!compareParagraph(pharagraphs1.get(i),pharagraphs2.get(j))) {
+					if(!compareParagraph(paragraphs1.get(i),paragraphs2.get(j))) {
 						retVal = false;
 					}
 				}
@@ -423,6 +424,8 @@ public class XmlRWUtil implements ErrorHandler{
 		if(par1.getTextContent().equals(par2.getTextContent()))
 			return true;
 		else {
+			if(par1.hasAttribute("eId"))
+				System.out.println("[INFO] Paragraphs not matching at eId : <" + par1.getAttribute("eId") + ">");
 			return false;
 		}
 	}

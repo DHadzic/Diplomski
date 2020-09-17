@@ -78,8 +78,7 @@ public class Change {
 
 	@Override
 	public String toString() {
-		return "Operation " + type + ", needs to be done at :" + destination + ", oldValue=" + oldValue + ", isNewValueText="
-				+ this.isText;
+		return "Operation < " + type + " > needs to be done at : #" + destination;
 	}
 	
 	
