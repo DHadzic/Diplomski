@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 file:/C:/Users/Damir/Desktop/Diplomski/akoma%20ntoso/akomantoso30.xsd">
+    <act name="ZakonOIzmeniIDopuni94">
+        <meta>
+            <identification source="http://www.oxygenxml.com/">
+                <FRBRWork>
+                    <FRBRthis value="/akn/srb/act/2017-10-19/!main"/>
+                    <FRBRuri value="/akn/srb/act/2017-10-19"/>
+                    <FRBRdate date="2017-10-19" name="Generation"/>
+                    <FRBRauthor href="#pravnoinfsistem" as="#author"/>
+                    <FRBRcountry value="srb"/>
+                    <FRBRname value="publicLaw"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/srb/act/2017-10-19/srb@/!main"/>
+                    <FRBRuri value="/akn/srb/act/2017-10-19/srb@"/>
+                    <FRBRdate date="2017-10-27" name="Generation"/>
+                    <FRBRauthor href="" as="#editor"/>
+                    <FRBRlanguage language="eng"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/srb/act/2017-10-19/srb@/!main.xml"/>
+                    <FRBRuri value="/akn/srb/act/2017-10-19/srb@.akn"/>
+                    <FRBRdate date="2017-10-27" name="Generation"/>
+                    <FRBRauthor href="" as="#editor"/>
+                </FRBRManifestation>
+            </identification>
+            <analysis source="#somebody">
+                <activeModifications>
+                    <textualMod eId="amod1" type="substitution">
+                        <source href="#mod1"/>
+                        <destination href="/akn/srb/act/2016-01-28~art2-para1-point1-subpoint3-p"/>
+                        <old href="#mod1-str1"/>
+                        <new href="#mod1-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod2" type="insertion">
+                        <source href="#mod2"/>
+                        <destination href="/akn/srb/act/2016-01-28~art2-para1-point1-subpoint4" pos="after"/>
+                        <new href="#mod2-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod3" type="substitution">
+                        <source href="#mod3"/>
+                        <destination href="/akn/srb/act/2016-01-28~art2-para1-point2-p"/>
+                        <old href="#mod3-str1"/>
+                        <new href="#mod3-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod4" type="substitution">
+                        <source href="#mod4"/>
+                        <destination href="/akn/srb/act/2016-01-28~art2-para1-point11-p"/>
+                        <new href="#mod4-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod5" type="insertion">
+                        <source href="#mod5"/>
+                        <destination href="/akn/srb/act/2016-01-28~art2-para1-point11" pos="after"/>
+                        <new href="#mod5-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod6" type="substitution">
+                        <source href="#mod6"/>
+                        <destination href="/akn/srb/act/2016-01-28~art2-para1-point15-p"/>
+                        <new href="#mod6-str1"/>
+                    </textualMod>
+                    <textualMod eId="amo7" type="substitution">
+                        <source href="#mod7"/>
+                        <destination href="/akn/srb/act/2016-01-28~art2-para1-point24-p"/>
+                        <new href="#mod7-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod8" type="insertion">
+                        <source href="#mod8"/>
+                        <destination href="/akn/srb/act/2016-01-28~art2-para1-point24" pos="after"/>
+                        <new href="#mod8-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod9" type="insertion">
+                        <source href="#mod9"/>
+                        <destination href="/akn/srb/act/2016-01-28~art3" pos="after"/>
+                        <new href="#mod9-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod10" type="substitution">
+                        <source href="#mod10"/>
+                        <destination href="/akn/srb/act/2016-01-28~art5-para1-p"/>
+                        <old href="#mod10-str1"/>
+                        <new href="#mod10-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod11" type="substitution">
+                        <source href="#mod11"/>
+                        <destination href="/akn/srb/act/2016-01-28~art5-para1-p"/>
+                        <old href="#mod11-str1"/>
+                        <new href="#mod11-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod12" type="substitution">
+                        <source href="#mod12"/>
+                        <destination href="/akn/srb/act/2016-01-28~art5-para2-p"/>
+                        <old href="#mod12-str1"/>
+                        <new href="#mod12-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod13" type="substitution">
+                        <source href="#mod13"/>
+                        <destination href="/akn/srb/act/2016-01-28~art6"/>
+                        <new href="#mod13-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod14" type="insertion">
+                        <source href="#mod14"/>
+                        <destination href="/akn/srb/act/2016-01-28~art6" pos="after"/>
+                        <new href="#mod14-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod15" type="substitution">
+                        <source href="#mod15"/>
+                        <destination href="/akn/srb/act/2016-01-28~art7-para2-p"/>
+                        <old href="#mod15-str1"/>
+                        <new href="#mod15-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod16" type="substitution">
+                        <source href="#mod16"/>
+                        <destination href="/akn/srb/act/2016-01-28~art7-para3-point11-p"/>
+                        <old href="#mod16-str1"/>
+                        <new href="#mod16-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod17" type="substitution">
+                        <source href="#mod17"/>
+                        <destination href="/akn/srb/act/2016-01-28~art7-para3-point23-p"/>
+                        <old href="#mod17-str1"/>
+                        <new href="#mod17-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod18" type="substitution">
+                        <source href="#mod18"/>
+                        <destination href="/akn/srb/act/2016-01-28~art11"/>
+                        <new href="#mod18-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod19" type="insertion">
+                        <source href="#mod19"/>
+                        <destination href="/akn/srb/act/2016-01-28~art11" pos="after"/>
+                        <new href="#mod19-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod20" type="substitution">
+                        <source href="#mod20"/>
+                        <destination href="/akn/srb/act/2016-01-28~art12-para1-point1-p"/>
+                        <old href="#mod20-str1"/>
+                        <new href="#mod20-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod21" type="insertion">
+                        <source href="#mod21"/>
+                        <destination href="/akn/srb/act/2016-01-28~art13-para1" pos="before"/>
+                        <new href="#mod21-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod22" type="insertion">
+                        <source href="#mod22"/>
+                        <destination href="/akn/srb/act/2016-01-28~art13" pos="after"/>
+                        <new href="#mod22-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod23" type="substitution">
+                        <source href="#mod23"/>
+                        <destination href="/akn/srb/act/2016-01-28~art14-heading"/>
+                        <old href="#mod23-str1"/>
+                        <new href="#mod23-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod23a" type="substitution">
+                        <source href="#mod23"/>
+                        <destination href="/akn/srb/act/2016-01-28~art14-para1-p"/>
+                        <old href="#mod23-str1"/>
+                        <new href="#mod23-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod24" type="substitution">
+                        <source href="#mod24"/>
+                        <destination href="/akn/srb/act/2016-01-28~art15"/>
+                        <new href="#mod24-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod25" type="insertion">
+                        <source href="#mod25"/>
+                        <destination href="/akn/srb/act/2016-01-28~art15" pos="after"/>
+                        <new href="#mod25-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod26" type="insertion">
+                        <source href="#mod26"/>
+                        <destination href="/akn/srb/act/2016-01-28~art16-para1" pos="before"/>
+                        <new href="#mod26-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod27" type="substitution">
+                        <source href="#mod27"/>
+                        <destination href="/akn/srb/act/2016-01-28~art17-para2-p"/>
+                        <old href="#mod27-str1"/>
+                        <new href="#mod27-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod28" type="substitution">
+                        <source href="#mod28"/>
+                        <destination href="/akn/srb/act/2016-01-28~art17-para4-p"/>
+                        <old href="#mod28-str1"/>
+                        <new href="#mod28-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod29" type="substitution">
+                        <source href="#mod29"/>
+                        <destination href="/akn/srb/act/2016-01-28~art17-para5-p"/>
+                        <new href="#mod29-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod30" type="substitution">
+                        <source href="#mod30"/>
+                        <destination href="/akn/srb/act/2016-01-28~art18"/>
+                        <new href="#mod30-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod31" type="insertion">
+                        <source href="#mod31"/>
+                        <destination href="/akn/srb/act/2016-01-28~art19-para1" pos="before"/>
+                        <new href="#mod31-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod32" type="substitution">
+                        <source href="#mod32"/>
+                        <destination href="/akn/srb/act/2016-01-28~art19-para2-p"/>
+                        <old href="#mod32-str1"/>
+                        <new href="#mod32-str2"/>
+                    </textualMod>
+                    <textualMod eId="amod33" type="insertion">
+                        <source href="#mod33"/>
+                        <destination href="/akn/srb/act/2016-01-28~art19" pos="after"/>
+                        <new href="#mod33-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod34" type="substitution">
+                        <source href="#mod34"/>
+                        <destination href="/akn/srb/act/2016-01-28~art30"/>
+                            <new href="#mod34-str1"/>
+                    </textualMod>
+                    <textualMod eId="amod35" type="substitution">
+                        <source href="#mod35"/>
+                        <destination href="/akn/srb/act/2016-01-28~art31"/>
+                        <new href="#mod35-str1"/>
+                    </textualMod>
+                </activeModifications>
+            </analysis>
+        </meta>
+        <preface>
+            <p class="number">4087</p>
+            <p>
+                На основу <mref>члана 112. став 1. тачка 2. Устава Републике Србије</mref>,
+                доносим
+            </p>
+            <p> УКАЗ о проглашењу Закона о изменама Закона о информационој безбедности</p>
+            <p>Проглашава се Закон о изменама Закона о информационој безбедности, који је донела Народна скупштина Републике Србије,
+                Четвртој седници Другог редовног заседања, <date date="2019-10-30">30. октобра 2019. године.</date></p>
+            <p>ПР број 112</p>
+            <p>У <location refersTo="Belgrade">Београду </location>, <date eId="doc-date" date="2019-10-31" title="77 oд ">31. октобра 2017. године </date></p>
+            <p>Председник Републике,</p>
+            <p>Александар Вучић, с.р.</p>
+        </preface>
+        <preamble>
+            <p>
+                <docTitle>
+                    <docType>ЗАКОН</docType>
+                    о изменама Закона о информационој безбедности
+                </docTitle>
+            </p>
+        </preamble>
+        <body>
+            <article eId="art1">
+                <num>Члан 1.</num>
+                <paragraph eId="art1-para1">
+                    <content>
+                        <p>
+                            <mod eId="mod1">
+                                У Закону о информационој безбедности („Службени гласник РС”, бр. 6/16 и 94/17),
+                                у члану 2. став 1. тачка 1) подтачка (3) реч: 
+                                „<quotedText eId="mod1-str">похрањује</quotedText>ˮ замењује се речима: „<quotedText eId="mod1-str2">воде, чувају</quotedText>ˮ.
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            После подтачке (4) додаје се подтачка (5), која гласи:"
+                            <mod eId="mod2">
+                                <quotedStructure eId="mod2-str1">
+                                    <hcontainer name="art2-para1-point1-subpoint5" eId="art2-para1-point1-subpoint5">
+                                        <num>5)</num>
+                                        <content>
+                                            <p>
+                                            све типове системског и апликативног софтвера и софтверске развојне алате.
+                                            </p>
+                                        </content>
+                                    </hcontainer>
+                                </quotedStructure>
+                            </mod>
+                            ".
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            У тачки 2) речи: „
+                            <mod eId="mod3">
+                                <quotedText eId="mod3-str1">орган јавне власти или организациона јединица органа јавне власти</quotedText>
+                                ˮ замењују се речима: „
+                                <quotedText eId="mod3-str2">орган власти или организациона јединица органа власти</quotedText>
+                            </mod>
+                            ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            Тачка 11) мења се и гласи:
+                            <mod eId="mod4">
+                                <quotedStructure eId="mod4-str1">
+                                    <p eId="art2-para1-point11-p">
+                                        инцидент је сваки догађај који има стваран негативан утицај на безбедност мрежних и информационих система;
+                                    </p>
+                                </quotedStructure>
+                            </mod>
+                            ".
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            После тачке 11) додаје се тачка 11а), која гласи:
+                            <mod eId="mod5">
+                                <quotedStructure eId="mod5-str1">
+                                    <point eId="art2-para1-point11a">
+                                        <num>11a)</num>
+                                        <content>
+                                            <p>
+                                                 јединствени систем за пријем обавештења о инцидентима је информациони систем у који се уносе подаци о инцидентима у ИКТ системима од посебног значаја који могу да имају значајан утицај на нарушавање информационе безбедности;
+                                            </p>
+                                        </content>
+                                    </point>
+                                </quotedStructure>
+                            </mod>
+                            ".
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            Тачка 15) мења се и гласи:
+                            <mod eId="mod6">
+                                <quotedStructure eId="mod6-str1">
+                                    <p eId="art2-para1-point15-p">
+                                        орган власти је државни орган, орган аутономне покрајине, орган јединице локалне самоуправе, организација и друго правно или физичко лице коме је поверено вршење јавних овлашћења;
+                                    </p>
+                                </quotedStructure>
+                            </mod>
+                            ".
+                        </p>
+                    </content>
+                </paragraph>                
+                <paragraph>
+                    <content>
+                        <p>
+                            Тачка 24) мења се и гласи:
+                            <mod eId="mod7">
+                                <quotedStructure eId="mod7-str1">
+                                    <p eId="art2-para1-point24-p">
+                                         информациона добра обухватају податке у датотекама и базама података, програмски кôд, конфигурацију хардверских компонената, техничку и корисничку документацију, записе о коришћењу хардверских компоненти, података из датотека и база података и спровођењу процедура ако се исти воде, унутрашње опште акте, процедуре и слично;
+                                    </p>
+                                </quotedStructure>
+                            </mod>
+                            ".
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            После тачке 24) додају се тач. 25) и 26), које гласе:
+                            <mod eId="mod8">
+                                <quotedStructure eId="mod8-str1">
+                                    <point eId="art2-para1-point25">
+                                        <num>25)</num>
+                                        <content>
+                                            <p>
+                                                услуга информационог друштва је услуга у смислу закона којим се уређује електронска трговина;
+                                            </p>
+                                        </content>
+                                    </point>
+                                    <point eId="art2-para1-point26">
+                                        <num>26)</num>
+                                        <content>
+                                            <p>
+                                                 пружалац услуге информационог друштва је правно лице које је пружалац услуге у смислу закона којим се уређује електронска трговина
+                                            </p>
+                                        </content>
+                                    </point>
+                                </quotedStructure>
+                            </mod>
+                            ".
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 2.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            После члана 3. додаје се члан 3а, који гласи:„
+                            <mod eId="mod9">
+                                <quotedStructure eId="mod9-str1">
+                                    <article eId="3a">
+                                        <num>Члан 3а</num>
+                                        <heading>Обрада података о личности</heading>
+                                        <paragraph eId="art3a-para1">
+                                            <content>
+                                                <p eId="art3a-para1-p">
+                                                    У случају обраде података о личности приликом вршења надлежности и испуњења обавеза из овог закона поступа се у складу са прописима који уређују заштиту података о личности.ˮ
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>".
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 3.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            У члану 5. став 1. речи: „
+                            <mod eId="mod10">
+                                <quotedText eId="mod10-str1">Генералног секретаријата Владе</quotedText> ˮ замењују се речима: „
+                                <quotedText eId="mod10-str2">Генералног секретаријата Владе Народне банке Србије</quotedText>
+                            </mod>”, а речи: „
+                            <mod eId="mod11">
+                                <quotedText eId="mod11-str1">ЦЕРТ-а републичких органа и Националног ЦЕРТ-а</quotedText> ˮ замењују се речима: „
+                                <quotedText eId="mod11-str2">Центра за безбедност ИКТ система у органима власти и Националног центра за превенцију безбедносних ризика у ИКТ системима.</quotedText>
+                            </mod>ˮ
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            У ставу 2. речи: „
+                            <mod eId="mod12">
+                                <quotedText eId="mod12-str1">органа јавне власти</quotedText>ˮ замењују се речима: „
+                                <quotedText eId="mod12-str2">органа власти</quotedText>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 4.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Члан 6. мења се и гласи:„
+                            <mod eId="mod13">
+                                <quotedStructure  eId="mod13-str1">
+                                    <article eId="art6">
+                                        <num>Члан 6.</num>
+                                        <heading>ИКТ системи од посебног значаја</heading>
+                                        <paragraph eId="art6-para1">
+                                            <intro>
+                                                <p eId="art6-para1-p">
+                                                    ИКТ системи од посебног значаја су системи који се користе:
+                                                </p>
+                                            </intro>
+                                            <point eId="art6-para1-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art6-para1-point1-p">
+                                                         у обављању послова у органима власти;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6-para1-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art6-para1-point2-p">
+                                                         за обраду посебних врста података о личности, у смислу закона који уређује заштиту података о личности;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6-para1-point3">
+                                                <num>3)</num>
+                                                <intro>
+                                                    <p eId="art6-para1-point3-p">
+                                                         у обављању делатности од општег интереса и другим делатностима и то у следећим областима:
+                                                    </p>
+                                                </intro>
+                                                <hcontainer name="art6-para1-point3-subpoint1" eId="art6-para1-point3-subpoint1">
+                                                    <num>(1)</num>
+                                                    <content>
+                                                        <p eId="art6-para1-point3-subpoint1-p">
+                                                            енергетика:
+                                                        </p>
+                                                        <ul>
+                                                            <li>– производња, пренос и дистрибуција електричне енергије;</li>
+                                                            <li>- производња и прерада угља;</li>
+                                                            <li>– истраживање, производња, прерада, транспорт и дистрибуција нафте и промет нафте и нафтних деривата;</li>
+                                                            <li>– истраживање, производња, прерада, транспорт и дистрибуција природног и течног гаса;</li>
+                                                        </ul>
+                                                    </content>
+                                                </hcontainer>
+                                                <hcontainer name="art6-para1-point3-subpoint2" eId="art6-para1-point3-subpoint2">
+                                                    <num>(2)</num>
+                                                    <content>
+                                                        <p eId="art6-para1-point3-subpoint2-p">
+                                                            саобраћај:
+                                                        </p>
+                                                        <ul>
+                                                            <li>– железнички, поштански, водни и ваздушни саобраћај;</li>
+                                                        </ul>
+                                                    </content>
+                                                </hcontainer>
+                                                <hcontainer name="art6-para1-point3-subpoint3" eId="art6-para1-point3-subpoint3">
+                                                    <num>(3)</num>
+                                                    <content>
+                                                        <p eId="art6-para1-point3-subpoint3-p">
+                                                             здравство:
+                                                        </p>
+                                                        <ul>
+                                                            <li>– здравствена заштита;</li>
+                                                        </ul>
+                                                    </content>
+                                                </hcontainer>
+                                                <hcontainer name="art6-para1-point3-subpoint4" eId="art6-para1-point3-subpoint4">
+                                                    <num>(4)</num>
+                                                    <content>
+                                                        <p eId="art6-para1-point3-subpoint4-p">
+                                                             банкарство и финансијска тржишта:
+                                                        </p>
+                                                        <ul>
+                                                            <li>– послови финансијских институција;</li>
+                                                            <li>– послови вођења регистра података о обавезама физичких и правних лица према финансијским институцијама;</li>
+                                                            <li>– послови управљања, односно обављања делатности у вези са функционисањем регулисаног тржишта;</li>
+                                                        </ul>
+                                                    </content>
+                                                </hcontainer>
+                                                <hcontainer name="art6-para1-point3-subpoint5" eId="art6-para1-point3-subpoint5">
+                                                    <num>(5)</num>
+                                                    <content>
+                                                        <p eId="art6-para1-point3-subpoint5-p">
+                                                            дигитална инфраструктура:
+                                                        </p>
+                                                        <ul>
+                                                            <li>– размена интернет саобраћаја;</li>
+                                                            <li>– управљање регистром националног интернет домена и системом за именовање на мрежи (ДНС системи);</li>
+                                                        </ul>
+                                                    </content>
+                                                </hcontainer>
+                                                <hcontainer name="art6-para1-point3-subpoint6" eId="art6-para1-point3-subpoint6">
+                                                    <num>(6)</num>
+                                                    <content>
+                                                        <p eId="art6-para1-point3-subpoint6-p">
+                                                             добра од општег интереса:
+                                                        </p>
+                                                        <ul>
+                                                            <li>– коришћење, управљање, заштита и унапређивање добара од општег интереса (воде, путеви, минералне сировине, шуме, пловне реке, језера, обале, бање, дивљач, заштићена подручја);</li>
+                                                        </ul>
+                                                    </content>
+                                                </hcontainer>
+                                                <hcontainer name="art6-para1-point3-subpoint7" eId="art6-para1-point3-subpoint7">
+                                                    <num>(7)</num>
+                                                    <content>
+                                                        <p eId="art6-para1-point3-subpoint7-p">
+                                                             услуге информационог друштва:
+                                                        </p>
+                                                        <ul>
+                                                            <li>– услуге информационог друштва у смислу члана 2. тачка 25) овог закона;</li>
+                                                        </ul>
+                                                    </content>
+                                                </hcontainer>
+                                                <hcontainer name="art6-para1-point3-subpoint8" eId="art6-para1-point3-subpoint8">
+                                                    <num>(8)</num>
+                                                    <content>
+                                                        <p eId="art6-para1-point3-subpoint8-p">
+                                                             остале области:
+                                                        </p>
+                                                        <ul>
+                                                            <li>– електронске комуникације;</li>
+                                                            <li>– издавање службеног гласила Републике Србије;</li>
+                                                            <li>– управљање нуклеарним објектима;</li>
+                                                            <li>– производња, промет и превоз наоружања и војне опреме;</li>
+                                                            <li>– управљање отпадом;</li>
+                                                            <li>– комуналне делатности;</li>
+                                                            <li>– производња и снабдевање хемикалијама;</li>
+                                                        </ul>
+                                                    </content>
+                                                </hcontainer>
+                                            </point>
+                                            <point eId="art6-para1-point4">
+                                                <num>4)</num>
+                                                <content>
+                                                    <p eId="art6-para1-point4-p">
+                                                         у правним лицима и установама које оснива Република Србија, аутономна покрајина или јединица локалне самоуправе за обављање делатности из тачке 3) овог става.
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                        <paragraph eId="art6-para2">
+                                            <content>
+                                                <p eId="art6-para2-p">
+                                                    Влада, на предлог министарства надлежног за послове информационе безбедности, утврђује листу делатности из става 1. тачка 3) овог члана.ˮ
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article eId="art5">
+                <num>Члан 5.</num>
+                <paragraph eId="art5-para1">
+                    <content>
+                        <p>
+                            После члана 6. додају се чл. 6а и 6б, који гласе:
+                        </p>
+                        <p>
+                            "
+                            <mod eId="mod14">
+                                <quotedStructure eId="mod14-str1">
+                                    <article eId="art6a">
+                                        <num>Члан 6а</num>
+                                        <heading>Обавезе оператора ИКТ система од посебног значаја</heading>
+                                        <paragraph eId="art6a-para1">
+                                            <intro>
+                                                <p eId="art6a-para1-p">Оператор ИКТ система од посебног значаја у складу са овим законом у обавези је да:</p>
+                                            </intro>
+                                            <point eId="art6a-para1-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art6a-para1-point1-p">упише ИКТ систем од посебног значаја којим управља у евиденцију оператора ИКТ система од посебног значаја;</p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6a_para1-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art6a-para1-point2-p">предузме мере заштите ИКТ система од посебног значаја;</p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6a-para1-point3">
+                                                <num>3)</num>
+                                                <content>
+                                                    <p eId="art6a-para1-point3-p">донесе акт о безбедности ИКТ система;</p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6a-para1-point4">
+                                                <num>4)</num>
+                                                <content>
+                                                    <p eId="art6a-para1-point4-p">врши проверу усклађености примењених мера заштите ИКТ система са актом о безбедности ИКТ система и то најмање једном годишње;</p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6a_item5">
+                                                <num>5)</num>
+                                                <content>
+                                                    <p eId="art6a-para1-point5-p">уреди однос са трећим лицима на начин који обезбеђује предузимање мера заштите тог ИКТ система у складу са законом, уколико поверава активности у вези са ИКТ системом од посебног значаја трећим лицима;</p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6a-para1-point6">
+                                                <num>6)</num>
+                                                <content>
+                                                    <p eId="art6a-para1-point6-p">доставља обавештења о инцидентима који значајно угрожавају информациону безбедност ИКТ система;</p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6a-para1-point7">
+                                                <num>7)</num>
+                                                <content>
+                                                    <p eId="art6a-para1-point7-p">достави тачне статистичке податке о инцидентима у ИКТ систему.</p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                    </article>
+                                    <article eId="art6b">
+                                        <num>Члан 6б</num>
+                                        <heading>Евиденција оператора ИКТ система од посебног значаја</heading>
+                                        <paragraph eId="art6b-para1">
+                                            <intro>
+                                                <p eId="art6b-para1-p">
+                                                    Надлежни орган успоставља и води евиденцију ИКТ система од посебног значаја (у даљем тексту: Евиденција) која садржи:
+                                                </p>
+                                            </intro>
+                                            <point eId="art6b-para1-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art6b-para1-point1-p">
+                                                        назив и седиште оператора ИКТ система од посебног значаја;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6b-para1-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art6b-para1-point2-p">
+                                                         име и презиме, службена адреса за пријем електронске поште и службени контакт телефон администратора ИКТ система од посебног значаја;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6b-para1-point3">
+                                                <num>3)</num>
+                                                <content>
+                                                    <p eId="art6b-para1-point3-p">
+                                                         име и презиме, службена адреса за пријем електронске поште и службени контакт телефон одговорног лица ИКТ система од посебног значаја;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art6b-para1-point4">
+                                                <num>4)</num>
+                                                <content>
+                                                    <p eId="art6b-para1-point4-p">
+                                                         податак о врсти ИКТ система од посебног значаја, у складу са чланом 6. овог закона.
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                        <paragraph eId="art6b-para2">
+                                            <content>
+                                                <p eId="art6b-para2-p">
+                                                    Поред података из става 1. овог члана, евиденција може да садржи и друге допунске податке о ИКТ систему од посебног значаја које прописује Надлежни орган.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art6b-para3">
+                                            <content>
+                                                <p eId="art6b-para3-p">
+                                                    Оператор ИКТ система од посебног значаја дужан је да ИКТ систем од посебног значаја којим управља упише у евиденцију из става 1. овог члана.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art6b-para4">
+                                            <content>
+                                                <p eId="art6b-para4-p">
+                                                    Оператор ИКТ система од посебног значаја дужан је да надлежном органу достави податке из става 1. овог члана најкасније 90 дана од дана усвајања прописа из става 2. овог члана, односно 90 дана од дана успостављања ИКТ система од посебног значаја.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art6b-para5">
+                                            <content>
+                                                <p eId="art6b-para5-p">
+                                                    Надлежни орган ставља на располагање Националном центру за превенцију безбедносних ризика у ИКТ системима (у даљем тексту: Национални ЦЕРТ) ажурну евиденцију из става 1. овог члана.ˮ
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 6.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            У члану 7. став 2. реч: „
+                            <mod eId="mod15">
+                                <quotedText eId="mod15-str1">минимизација</quotedText>ˮ замењује се речју: „
+                                <quotedText eId="mod15-str2">смањење</quotedText>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            У ставу 3. тачка 11) реч: „
+                            <mod eId="mod16">
+                                <quotedText eId="mod16-str1">односно</quotedText>ˮ замењује се речју: „
+                                <quotedText eId="mod16-str2">и</quotedText>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            У тачки 23) речи: „
+                            <mod eId="mod17">
+                                <quotedText eId="mod17-str1">питања информационе безбедности</quotedText>ˮ замењују се речима: „
+                                <quotedText eId="mod17-str2">испуњење захтева за информациону безбедност</quotedText>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 7.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Члан 11. мења се и гласи:„
+                            <mod eId="mod18">
+                                <quotedStructure eId="mod18-str1">
+                                    <article eId="art11">
+                                        <num>Члан 11.</num>
+                                        <heading>Обавештавање о инцидентима</heading>
+                                        <paragraph eId="art11-para1">
+                                            <content>
+                                                <p eId="art11-para1-p">
+                                                    Оператори ИКТ система од посебног значаја обавештавање о инцидентима у ИКТ системима који могу да имају значајан утицај на нарушавање информационе безбедности врше преко веб странице Надлежног органа или Националног ЦЕРТ-а у јединствени систем за пријем обавештења о инцидентима којег одржава Надлежни орган.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para2">
+                                            <content>
+                                                <p eId="art11-para2-p">
+                                                    Уколико органи из става 1. овог члана буду обавештени о инциденту на други начин, податке о инциденту уносе у систем из става 1. овог члана.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para3">
+                                            <intro>
+                                                <p eId="art11-para3-p">
+                                                    Изузетно од става 1. овог члана, обавештење о инцидентима се упућује:
+                                                </p>
+                                            </intro>
+                                            <point eId="art11-para3-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art11-para3-point1-p">
+                                                        Народној банци Србије, у случају инцидената у ИКТ системима из члана 6. став 1. тачка 3) подтачка (4) алинеје прва и друга овог закона;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art11-para3-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art11-para3-point2-p">
+                                                        регулаторном телу за електронске комуникације у случају инцидената у ИКТ системима из члана 6. став 1. тачка 3) подтачка 8) алинеја прва овог закона.
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                        <paragraph eId="art11-para4">
+                                            <content>
+                                                <p eId="art11-para4-p">
+                                                    Народна банка Србије и регулаторно тело за електронске комуникације обавештења из става 3. овог члана достављају у јединствени систем за пријем обавештења о инцидентима на начин из става 1. овог члана.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para5">
+                                            <content>
+                                                <p eId="art11-para5-p">
+                                                    Након пријаве инцидента, уколико је инцидент и даље у току, оператори ИКТ система од посебног значаја достављају обавештења о битним догађајима у вези са инцидентом и активностима које предузимају до престанка инцидента органу коме су у складу са овим законом пријавили инцидент.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para6">
+                                            <content>
+                                                <p eId="art11-para6-p">
+                                                    Оператори ИКТ система од посебног значаја достављају завршни извештај о инциденту органу кога су у складу са овим законом обавештавали о инциденту у року од 15 дана од дана престанка инцидента, а који обавезно садржи врсту и опис инцидента, време и трајање инцидента, последице које је инцидент изазвао, предузете активности ради отклањања последица инцидента и, по потреби, друге релевантне информације.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para7">
+                                            <content>
+                                                <p eId="art11-para7-p">
+                                                    У случају инцидената у ИКТ системима за рад са тајним подацима оператори тих ИКТ система поступају у складу са прописима којима се уређује област заштите тајних података.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para8">
+                                            <content>
+                                                <p eId="art11-para8-p">
+                                                    Одредбе ст. 1. и 7. овог члана не односе се на самосталне операторе ИКТ система.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para9">
+                                            <content>
+                                                <p eId="art11-para9-p">
+                                                    Влада, на предлог Надлежног органа, уређује поступак обавештавања о инцидентима, листу, врсте и значај инцидената према нивоу опасности, поступање и размену информација о инцидентима између органа из члана 5. овог закона.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para10">
+                                            <content>
+                                                <p eId="art11-para10-p">
+                                                    Ако је инцидент од интереса за јавност, Надлежни орган, односно орган из става 3. овог члана коме се упућују обавештења о инцидентима, може објавити информацију о инциденту, након саветовања са оператором ИКТ система од посебног значаја у коме се инцидент догодио.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para11">
+                                            <content>
+                                                <p eId="art11-para11-p">
+                                                    Ако је инцидент везан за извршење кривичних дела која се гоне по службеној дужности, орган коме је упућено обавештење о инциденту, обавештава надлежно јавно тужилаштво, односно министарство надлежно за унутрашње послове.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para12">
+                                            <content>
+                                                <p eId="art11-para12-p">
+                                                    Ако је инцидент повезан са значајним нарушавањем информационе безбедности, које има или може имати за последицу угрожавање одбране Републике Србије, орган коме је упућено обавештење о инциденту обавештава Војнобезбедносну агенцију.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para13">
+                                            <content>
+                                                <p eId="art11-para13-p">
+                                                    Ако је инцидент повезан са значајним нарушавањем информационе безбедности, које има или може имати за последицу угрожавање националне безбедности, орган коме је упућено обавештење о инциденту обавештава Безбедносно-информативну агенцију.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11-para14">
+                                            <content>
+                                                <p eId="art11-para14-p">
+                                                    У случају наступања околности угрожавања, ометања рада или уништења ИКТ система од посебног значаја руковођење и координацију спровођења мера и задатака у наведеним околностима предузима Републички штаб за ванредне ситуације, у складу са законом.ˮ
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 8.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            После члана 11. додају се чл. 11а и 11б, који гласе:"
+                            <mod eId="mod19">
+                                <quotedStructure eId="mod19-str1">
+                                    <article eId="art11a">
+                                        <num>Члан 11а</num>
+                                        <heading>Инциденти у ИКТ системима од посебног значаја који могу да имају значајан утицај на нарушавање информационе безбедности</heading>
+                                        <paragraph eId="art11a-para1">
+                                            <intro>
+                                                <p eId="art11a-para1-p">
+                                                    Оператор ИКТ система од посебног значаја дужан је да пријави следеће инциденте који могу да имају значајан утицај на нарушавање информационе безбедности:
+                                                </p>
+                                            </intro>
+                                            <point eId="art11a-para1-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art11a-para1-point1-p">
+                                                         инциденте који доводе до прекида континуитета вршења послова и пружања услуга, односно знатних тешкоћа у вршењу послова и пружању услуга;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art11a-para1-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art11a-para1-point2-p">
+                                                         инциденте који утичу на велики број корисника услуга, или трају дужи временски период;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art11a-para1-point3">
+                                                <num>3)</num>
+                                                <content>
+                                                    <p eId="art11a-para1-point3-p">
+                                                         инциденте који доводе до прекида континуитета, односно тешкоћа у вршењу послова и пружања услуга, који утичу на обављање послова и вршење услуга других оператора ИКТ система од посебног значаја или утичу на јавну безбедност;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art11a-para1-point4">
+                                                <num>4)</num>
+                                                <content>
+                                                    <p eId="art11a-para1-point4-p">
+                                                         инциденте који доводе до прекида континуитета, односно тешкоће у вршењу послова и пружању услуга и имају утицај на већи део територије Републике Србије;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art11a-para1-point5">
+                                                <num>5)</num>
+                                                <content>
+                                                    <p eId="art11a-para1-point5-p">
+                                                         инциденте који доводе до неовлашћеног приступа заштићеним подацима чије откривање може угрозити права и интересе оних на које се подаци односе;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art11a-para1-point6">
+                                                <num>6)</num>
+                                                <content>
+                                                    <p eId="art11a-para1-point6-p">
+                                                         инциденте који су настали као последица инцидента у ИКТ систему из члана 6. став 1. тачка 3) подтачка (7) овог закона, када ИКТ систем од посебног значаја у свом пословању користи информационе услуге ИКТ система из члана 6. став 1. тачка 3) подтачка (7) овог закона.
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                        <paragraph eId="art11a-para2">
+                                            <content>
+                                                <p eId="art11a-para2-p">
+                                                    Оператор ИКТ система од посебног значаја дужан је да пријави и инциденте који су довели до значајног повећања ризика од наступања последица из става 1. овог члана.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                    <article eId="art11b">
+                                        <num>Члан 11б</num>
+                                        <heading>Достављање статистичких података о инцидентима</heading>
+                                        <paragraph eId="art11b-para1">
+                                            <content>
+                                                <p eId="art11b-para1-p">
+                                                    Оператор ИКТ система од посебног значаја дужан је да, поред обавештавања о инцидентима из члана 11. овог закона, достави Националном ЦЕРТ-у статистичке податке о свим инцидентима у ИКТ систему у претходној години најкасније до 28. фебруара текуће године.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11b-para2">
+                                            <content>
+                                                <p eId="art11b-para2-p">
+                                                    Национални ЦЕРТ обједињене статистичке податке из става 1. овог члана доставља Надлежном органу и објављује их на веб страници Националног ЦЕРТ-а.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art11b-para3">
+                                            <content>
+                                                <p eId="art11b-para3-p">
+                                                    Врсту, форму и начин достављања статистичких података из става 1. овог члана утврђује Национални ЦЕРТ.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>”.
+                        </p>
+                    </content>    
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 9.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            У члану 12. став 1. тачка 1) речи: „
+                            <mod eId="mod20">
+                                <quotedText eId="mod20-str1">високи ризици</quotedText> ˮ замењују се речју: „
+                                <quotedText eId="mod20-str2">високоризични</quotedText>
+                            </mod>ˮ.
+                            
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 10.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Изнад члана 13. додаје се назив члана, који гласи: „
+                            <mod eId="mod21">
+                                <quotedStructure eId="mod21-str1">
+                                    <heading>Самостални оператори ИКТ система</heading>
+                                </quotedStructure>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 11.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            После члана 13. додаје се члан 13а, који гласи:„
+                            <mod eId="mod22">
+                                <quotedStructure eId="mod22-str1">
+                                    <article eId="art13a">
+                                        <heading>Сходна примена одредаба о самосталним операторима ИКТ система</heading>
+                                        <num>Члан 13а</num>
+                                        <paragraph eId="art13a-para1">
+                                            <content>
+                                                <p eId="art13a-para1-p">
+                                                    На Народну банку Србије као оператора ИКТ система сходно се примењују одредбе чл. 13, 15, 15а, 19, 22, 26, 27. и 28. овог закона које се односе на самосталне операторе ИКТ система.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art13a-para2">
+                                            <content>
+                                                <p eId="art13a-para2-p">
+                                                    На Народну банку Србије као оператора ИКТ система сходно се примењују и одредбе чл. 11. и 11а овог закона које се односе на операторе ИКТ система од посебног значаја.ˮ
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 12.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            У називу члана 14. и у ставу 1. речи: „
+                            <mod eId="mod23">
+                                <quotedText eId="mod23-str1">Национални центар за превенцију безбедносних ризика у ИКТ системима (у даљем тексту: Национални ЦЕРТ)</quotedText>ˮ замењују се речима: „
+                                <quotedText eId="mod23-str2">Национални ЦЕРТ</quotedText>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 13.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Члан 15. мења се и гласи:„
+                            <mod eId="mod24">
+                                <quotedStructure eId="mod24-str1">
+                                    <article eId="art15">
+                                        <num>Члан 15.</num>
+                                        <heading>Делокруг Националног ЦЕРТ-а</heading>
+                                        <paragraph eId="art15-para1">
+                                            <intro>
+                                                <p eId="art15-para1-p">
+                                                    Национални ЦЕРТ прикупља и размењује информације о ризицима за безбедност ИКТ система, као и догађајима који угрожавају безбедност ИКТ система и у вези тога обавештава, пружа подршку, упозорава и саветује лица која управљају ИКТ системима у Републици Србији, као и јавност, а посебно:
+                                                </p>
+                                            </intro>
+                                            <point eId="art15-para1-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art15-para1-point1-p">
+                                                         прати стање о инцидентима на националном нивоу;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art15-para1-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art15-para1-point2-p">
+                                                         пружа рана упозорења, узбуне и најаве и информише релевантна лица о ризицима и инцидентима;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art15-para1-point3">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art15-para1-point3-p">
+                                                         реагује по пријављеним или на други начин откривеним инцидентима у ИКТ системима од посебног значаја, као и по пријавама физичких и правних лица, тако што пружа савете и препоруке на основу расположивих информација о инцидентима и предузима друге потребне мере из своје надлежности на основу добијених сазнања;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art15-para1-point4">
+                                                <num>4)</num>
+                                                <content>
+                                                    <p eId="art15-para1-point4-p">
+                                                         континуирано израђује анализе ризика и инцидената;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art15-para1-point5">
+                                                <num>5)</num>
+                                                <content>
+                                                    <p eId="art15-para1-point5-p">
+                                                         подиже свест код грађана, привредних субјеката и органа власти о значају информационе безбедности, о ризицима и мерама заштите, укључујући спровођење кампања у циљу подизања те свести;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art15-para1-point6">
+                                                <num>6)</num>
+                                                <content>
+                                                    <p eId="art15-para1-point6-p">
+                                                         води евиденцију Посебних ЦЕРТ-ова;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art15-para1-point7">
+                                                <num>7)</num>
+                                                <content>
+                                                    <p eId="art15-para1-point7-p">
+                                                         извештава Надлежни орган на кварталном нивоу о предузетим активностима.
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                        <paragraph eId="art15-para2">
+                                            <content>
+                                                <p eId="art15-para2-p">
+                                                    Национални ЦЕРТ је овлашћен да врши обраду података о лицу које се обрати Националном ЦЕРТ-у у складу са законом који уређује заштиту података о личности и другим прописима.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art15-para3">
+                                            <content>
+                                                <p eId="art15-para3-p">
+                                                    Обрада података о лицу из става 1. тачка 3) овог члана обухвата име, презиме и број телефона и/или адресу електронске поште и врши се у сврху евидентирања поднетих пријава, информисања подносиоца пријаве о статусу предмета и, у случају потребе, упућивања пријаве надлежним органима ради даљег поступања, у складу са законом.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art15-para4">
+                                            <content>
+                                                <p eId="art15-para4-p">
+                                                    Национални ЦЕРТ обезбеђује непрекидну доступност својих услуга путем различитих средстава комуникације.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art15-para5">
+                                            <content>
+                                                <p eId="art15-para5-p">
+                                                    Просторије и информациони системи Националног ЦЕРТ-а морају да се налазе на безбедним локацијама.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art15-para6">
+                                            <intro>
+                                                <p eId="art15-para6-p">
+                                                    У циљу обезбеђивања континуитета рада, Национални ЦЕРТ треба да:
+                                                </p>
+                                            </intro>
+                                            <point eId="art15-para6-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art15-para6-point1-p">
+                                                         буде опремљен са одговарајућим системима за обављање послова из свог делокруга;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art15-para6-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art15-para6-point2-p">
+                                                         има довољно запослених како би се осигурала доступност у свако доба;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art15-para6-point3">
+                                                <num>3)</num>
+                                                <content>
+                                                    <p eId="art15-para6-point3-p">
+                                                        обезбеди инфраструктуру чији је континуитет осигуран, односно да обезбеди редундантне системе и резервни радни простор.
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                        <paragraph eId="art15-para7">
+                                            <content>
+                                                <p eId="art15-para7-p">
+                                                    Национални ЦЕРТ непосредно сарађује са Надлежним органом, Посебним ЦЕРТ-овима у Републици Србији, сличним организацијама у другим земљама, са јавним и привредним субјектима, ЦЕРТ-овима самосталних оператора ИКТ система, као и са ЦЕРТ-ом органа власти.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art15-para8">
+                                            <intro>
+                                                <p eId="art15-para8-p">
+                                                    Национални ЦЕРТ промовише усвајање и коришћење прописаних и стандардизованих процедура за:
+                                                </p>
+                                            </intro>
+                                            <point eId="art15-para8-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art15-para8-point1-p">
+                                                         управљање и санирање ризика и инцидената;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art15-para8-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art15-para8-point2-p">
+                                                         класификацију информација о ризицима и инцидентима, односно класификацију према нивоу инцидената и ризика.ˮ
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 14.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            После члана 15. додаје се члан 15а, који гласи:„
+                            <mod eId="mod25">
+                                <quotedStructure eId="mod25-str1">
+                                    <article eId="art15a">
+                                        <num>Члан 15а</num>
+                                        <heading>Сарадња ЦЕРТ-ова у Републици Србији</heading>
+                                        <paragraph eId="art15a-para1">
+                                            <content>
+                                                <p eId="art15a-para1-p">
+                                                    Национални ЦЕРТ, ЦЕРТ органа власти и ЦЕРТ-ови самосталних оператора ИКТ система одржавају континуирану сарадњу.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art15a-para2">
+                                            <content>
+                                                <p eId="art15a-para2-p">
+                                                    ЦЕРТ-ови из става 1. овог члана одржавају међусобне састанке у организацији Националног ЦЕРТ-а најмање три пута годишње, као и по потреби у случају инцидената који значајно угрожавају информациону безбедност у Републици Србији.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art15a-para3">
+                                            <content>
+                                                <p eId="art15a-para3-p">
+                                                    Састанцима ЦЕРТ-ова из става 1. овог члана присуствују и представници Надлежног органа.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art15a-para4">
+                                            <content>
+                                                <p eId="art15a-para4-p">
+                                                    Састанцима ЦЕРТ-ова из става 1. овог члана могу, по позиву, да присуствују и представници посебних ЦЕРТ-ова, као и друга лица.ˮ
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 15.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Изнад члана 16. додаје се назив члана који гласи: „
+                            <mod eId="mod26">
+                                <quotedStructure eId="mod26-str1">
+                                    <heading>Надзор над радом Националног ЦЕРТ-а</heading>
+                                </quotedStructure>
+                            </mod>ˮ.                            
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 16.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            У члану 17. став 2. после речи: „
+                            <mod eId="mod27">
+                                <quotedText eId="mod27-str1"> правног лица </quotedText>ˮ додају се речи: „
+                                <quotedText eId="mod27-str2"> правног лица са седиштем на територији Републике Србије </quotedText>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            У ставу 4. после речи: „
+                            <mod eId="mod28">
+                                <quotedText eId="mod28-str1">поште</quotedText>ˮ додаје се запета и речи: „
+                                <quotedText eId="mod28-str2">поште а у сврху ангажовања посебних ЦЕРТ-ова у случају безбедносних ризика и инцидената у ИКТ системима.</quotedText>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+                
+                <paragraph>
+                    <content>
+                        <p>
+                            Став 5. мења се и гласи:„
+                            <mod eId="mod29">
+                                <quotedText eId="mod29-str1">Национални ЦЕРТ прописује садржај, начин уписа и вођења евиденције из става 3. овог члана.</quotedText>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 17.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Члан 18. мења се и гласи:„
+                            <mod eId="mod30">
+                                <quotedStructure eId="mod30-str1">
+                                    <article eId="art18">
+                                        <num>Члан 18.</num>
+                                        <heading>Центар за безбедност ИКТ система у органима власти (ЦЕРТ органа власти)</heading>
+                                        <paragraph eId="art18-para1">
+                                            <content>
+                                                <p eId="art18-para1-p">
+                                                    ЦЕРТ органа власти обавља послове који се односе на заштиту од инцидената у ИКТ системима органа власти, изузев ИКТ система самосталних оператора.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art18-para2">
+                                            <content>
+                                                <p eId="art18-para2-p">
+                                                    Послове ЦЕРТ-а органа власти обавља орган надлежан за пројектовање, развој, изградњу, одржавање и унапређење рачунарске мреже републичких органа.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art18-para3">
+                                            <intro>
+                                                <p eId="art18-para3-p">
+                                                    Послови ЦЕРТ-а органа власти обухватају:
+                                                </p>
+                                            </intro>
+                                            <point eId="art18-para3-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art18-para3-point1-p">
+                                                        заштиту Јединствене информационо-комуникационе мреже електронске управе;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art18-para3-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art18-para3-point2-p">
+                                                         координацију и сарадњу са операторима ИКТ система које повезује јединствена мрежа из тачке 1) овог става у превенцији инцидената, откривању инцидената, прикупљању информација о инцидентима и отклањању последица инцидената;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art18-para3-point3">
+                                                <num>3)</num>
+                                                <content>
+                                                    <p eId="art18-para3-point3-p">
+                                                         издавање стручних препорука за заштиту ИКТ система органа власти, осим ИКТ система за рад са тајним подацима.ˮ
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 18.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Изнад члана 19. додаје се назив члана који гласи: „
+                            <mod eId="mod31">
+                                <quotedStructure eId="mod31-str1">
+                                    <heading>ЦЕРТ самосталног оператора ИКТ система</heading>
+                                </quotedStructure>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            У ставу 2. речи: „
+                            <mod eId="mod32">
+                                <quotedText eId="mod32-str1">републичких органа</quotedText>ˮ  замењују се речима: „
+                                <quotedText eId="mod32-str2">органа власти</quotedText>
+                            </mod>ˮ.
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 19.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            После члана 19. додаје се члан 19а, који гласи:
+                            „
+                            <mod eId="mod33">
+                                <quotedStructure eId="mod33-str1">
+                                    <article eId="art19a">
+                                        <num>Члан 19а</num>
+                                        <heading>Заштита деце при коришћењу информационо-комуникационих технологија</heading>
+                                        <paragraph eId="art19a-para1">
+                                            <content>
+                                                <p eId="art19a-para1-p">
+                                                    Надлежни орган предузима превентивне мере за безбедност и заштиту деце на интернету, као активности од јавног интереса, путем едукације и информисања деце, родитеља и наставника о предностима, ризицима и начинима безбедног коришћења интернета, као и путем јединственог места за пружање савета и пријем пријава у вези безбедности деце на интернету, и упућује пријаве надлежним органима ради даљег поступања.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art19a-para2">
+                                            <content>
+                                                <p eId="art19a-para2-p">
+                                                    Оператор електронских комуникација који пружа јавно доступне телефонске услуге дужан је да омогући свим претплатницима услугу бесплатног позива према јединственом месту за пружање савета и пријем пријава у вези безбедности деце на интернету.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art19a-para3">
+                                            <content>
+                                                <p eId="art19a-para3-p">
+                                                    У случају да наводи из пријаве упућују на постојање кривичног дела, на повреду права, здравственог статуса, добробити и/или општег интегритета детета, на ризик стварања зависности од коришћења интернета, пријава се прослеђује надлежном органу власти ради поступања у складу са утврђеним надлежностима.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art19a-para4">
+                                            <content>
+                                                <p eId="art19a-para4-p">
+                                                    Надлежни орган је овлашћен да врши обраду података о лицу које се обрати Надлежном органу у складу са законом који уређује заштиту података о личности и другим прописима.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art19a-para5">
+                                            <content>
+                                                <p eId="art19a-para5-p">
+                                                    Обрада података о лицу из става 4. овог члана обухвата име, презиме и број телефона и/или адресу електронске поште и врши се у сврху евидентирања поднетих пријава, информисања подносиоца пријаве о статусу предмета и, у случају потребе, упућивања пријаве надлежним органима ради даљег поступања, у складу са законом.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art19a-para6">
+                                            <content>
+                                                <p eId="art19a-para6-p">
+                                                    Подаци о личности из става 5. овог члана чувају се у роковима предвиђеним прописима који уређују канцеларијско пословање.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art19a-para7">
+                                            <intro>
+                                                <p eId="art19a-para7-p">
+                                                    У циљу обезбеђивања континуитета рада јединственог места за пружање савета и пријем пријава у вези безбедности деце на интернету, Надлежни орган треба да:
+                                                </p>
+                                            </intro>
+                                            <point eId="art19a-para7-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art19a-para7-point1-p">
+                                                         буде опремљен са одговарајућим системима за пријем пријава;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art19a-para7-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art19a-para7-point2-p">
+                                                         има довољно запослених како би се осигурала доступност у раду;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art19a-para7-point3">
+                                                <num>3)</num>
+                                                <content>
+                                                    <p eId="art19a-para7-point3-p">
+                                                         обезбеди инфраструктуру чији је континуитет осигуран.
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                        <paragraph eId="art19a-para8">
+                                            <content>
+                                                <p eId="art19a-para8-p">
+                                                    Влада ближе уређује начин спровођења мера за безбедност и заштиту деце на интернету из ст. 1. и 3. овог члана.  
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>ˮ
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 20.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Члана 30. мења се и гласи:„
+                            <mod eId="mod34">
+                                <quotedStructure eId="mod34-str1">
+                                    <article eId="art30">
+                                        <num>Члан 30.</num>
+                                        <paragraph eId="art30-para1">
+                                            <intro>
+                                                <p eId="art30-para1-p">
+                                                    Новчаном казном у износу од 50.000,00 до 2.000.000,00 динара казниће се за прекршај оператор ИКТ система од посебног значаја ако:
+                                                </p>
+                                            </intro>
+                                            <point eId="art30-para1-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art30-para1-point1-p">
+                                                         не изврши упис у евиденцију у року из члана 6б став 4. овог закона;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art30-para1-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art30-para1-point2-p">
+                                                         не донесе Акт о безбедности ИКТ система из члана 8. став 1. овог закона;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art30-para1-point3">
+                                                <num>3)</num>
+                                                <content>
+                                                    <p eId="art30-para1-point3-p">
+                                                         не примени мере заштите одређене Актом о безбедности ИКТ система из члана 8. став 2. овог закона;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art30-para1-point4">
+                                                <num>4)</num>
+                                                <content>
+                                                    <p eId="art30-para1-point4-p">
+                                                         не изврши проверу усклађености примењених мера из члана 8. став 4. овог закона;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art30-para1-point5">
+                                                <num>5)</num>
+                                                <content>
+                                                    <p eId="art30-para1-point5-p">
+                                                        5) не достави статистичке податке из члана 11б став 1. овог закона;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art30-para1-point6">
+                                                <num>6)</num>
+                                                <content>
+                                                    <p eId="art30-para1-point6-p">
+                                                         не поступи по налогу инспектора за информациону безбедност у остављеном року из члана 29. став 1. тачка 1. овог закона.
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph eId="art30-para2">
+                    <content>
+                        <p eId="art30-para2-p">
+                            За прекршај из става 1. овог члана казниће се и одговорно лице у оператору ИКТ система од посебног значаја новчаном казном у износу од 5.000,00 до 50.000,00 динара.ˮ
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 21.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Члан 31. мења се и гласи:„
+                            <mod eId="mod35">
+                                <quotedStructure eId="mod35-str1">
+                                    <article eId="art31">
+                                        <num>Члан 31.</num>
+                                        <paragraph eId="art31-para1">
+                                            <intro>
+                                                <p eId="art31-para1-p">
+                                                    Новчаном казном у износу од 50.000,00 до 500.000,00 динара казниће се за прекршај оператор ИКТ система од посебног значаја ако:
+                                                </p>
+                                            </intro>
+                                            <point eId="art31-para1-point1">
+                                                <num>1)</num>
+                                                <content>
+                                                    <p eId="art31-para1-point1-p">
+                                                        о инцидентима у ИКТ систему не обавести органе из члана 11. ст. 1, 3. и 7. овог закона;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art31-para1-point2">
+                                                <num>2)</num>
+                                                <content>
+                                                    <p eId="art31-para1-point2-p">
+                                                        не доставља обавештења о битним догађајима у вези са инцидентом и активностима из члана 11. став 5. овог закона;
+                                                    </p>
+                                                </content>
+                                            </point>
+                                            <point eId="art31-para1-point3">
+                                                <num>3)</num>
+                                                <content>
+                                                    <p eId="art31-para1-point3-p">
+                                                         не достави завршни извештај у року из члана 11. став 6. овог закона.
+                                                    </p>
+                                                </content>
+                                            </point>
+                                        </paragraph>
+                                        <paragraph eId="art31-para2">
+                                            <content>
+                                                <p eId="art31-para2-p">
+                                                    За прекршаје из става 1. овог члана казниће се и одговорно лице у оператору ИКТ система од посебног значаја новчаном казном у износу од 5.000,00 до 50.000,00 динара.
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                        <paragraph eId="art31-para3">
+                                            <content>
+                                                <p eId="art31-para3-p">
+                                                    Изузетно од ст. 1. и 2. овог члана, ако финансијска институција не обавести Народну банку Србије о инцидентима у ИКТ систему од посебног значаја, Народна банка Србије изриче тој финансијској институцији мере и казне у складу са законом којим се уређује њено пословање.”
+                                                </p>
+                                            </content>
+                                        </paragraph>
+                                    </article>
+                                </quotedStructure>
+                            </mod>
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+            <article>
+                <num>Члан 22.</num>
+                <paragraph>
+                    <content>
+                        <p>
+                            Подзаконски акти из чл. 4, 7. и 19. овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона.
+                        </p>
+                    </content>
+                </paragraph>
+                <paragraph>
+                    <content>
+                        <p>
+                            Подзаконски акти из чл. 5. и 8. овог закона донеће се у року од три месеца од дана ступања на снагу овог закона.
+                        </p>
+                    </content>
+                </paragraph>
+            </article>
+        </body>
+    </act>
+</akomaNtoso>
