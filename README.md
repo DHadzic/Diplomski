@@ -6,7 +6,9 @@ Sadržaj ove dve vrste entiteta je potrebno da odgovara [Akoma ntoso](http://www
 
 ## Način pokretanja
 
-Aplikacija se kreće iz komandne linije pomoću patchApi.jar datoteke.
+Aplikacija se pokreće iz komandne linije pomoću patchApi.jar datoteke.
+Potrebno je pozicionirati se u isti direktorijum u kome se patchApi.jar datoteka nalazi.
+Iz datog direktorijuma moguće je vršiti sledeće pozive.
 
 ![Pokretanje](https://github.com/DHadzic/Diplomski/blob/master/imgs/run_guide.png?raw=true)
 
