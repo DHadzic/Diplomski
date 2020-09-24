@@ -13,8 +13,8 @@ public class patchApi {
 //				,"data/xml/ZakonOIzmeniIDopuni77-2019.xml"};
 //		args =  new String[]{"compare","data/xml/ZakonOInformacionojBezbednosti1-v1.xml"
 //				,"data/xml/ZakonOInformacionojBezbednosti1-v2.xml"};
-		args =  new String[]{"version","Zakon"
-				,"02-02-2018"};
+//		args =  new String[]{"version","Zakon"
+//				,"02-02-2018"};
 
 		if(args.length == 0){
 			System.out.println();
@@ -25,7 +25,7 @@ public class patchApi {
 			System.out.println("Patch pattern:");
 			System.out.println("java -jar patchApi patch FILE1 FILE2");
 			System.out.println("Patch example:");
-			System.out.println("java -jar patchApi patch data/xml/ZakonOInformacionojBezbednosti.xml data/xml/ZakonOIzmeniIDopuni77-2019.com");
+			System.out.println("java -jar patchApi patch data/xml/ZakonOInformacionojBezbednosti.xml data/xml/ZakonOIzmeniIDopuni77-2019.xml");
 			System.out.println();
 			System.out.println("Compare patter:");
 			System.out.println("java -jar patchApi compare FILE1 FILE2");
