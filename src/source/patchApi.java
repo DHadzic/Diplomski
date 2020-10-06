@@ -9,12 +9,12 @@ public class patchApi {
 
 	public static void main(String[] args) {
 		
-//		args =  new String[]{"patch","data/xml/ZakonOInformacionojBezbednosti1-v1.xml"
+//		args =  new String[]{"patch","data/xml/ZakonOInformacionojBezbednosti-v1.xml"
 //				,"data/xml/ZakonOIzmeniIDopuni77-2019.xml"};
-//		args =  new String[]{"compare","data/xml/ZakonOInformacionojBezbednosti1-v1.xml"
-//				,"data/xml/ZakonOInformacionojBezbednosti1-v2.xml"};
-//		args =  new String[]{"version","Zakon"
-//				,"02-02-2018"};
+//		args =  new String[]{"compare","data/xml/ZakonOInformacionojBezbednosti-v1.xml"
+//				,"data/xml/ZakonOInformacionojBezbednosti-v2.xml"};
+//		args =  new String[]{"version","ZakonOInformacionojBezbednosti.xml"
+//				,"02-02-2020"};
 
 		if(args.length == 0){
 			System.out.println();
@@ -23,20 +23,20 @@ public class patchApi {
 			System.out.println("Possible options: patch, compare, version");
 			System.out.println();
 			System.out.println("Patch pattern:");
-			System.out.println("java -jar patchApi patch FILE1 FILE2");
+			System.out.println("java -jar patchApi.jar patch FILE1 FILE2");
 			System.out.println("Patch example:");
-			System.out.println("java -jar patchApi patch data/xml/ZakonOInformacionojBezbednosti.xml data/xml/ZakonOIzmeniIDopuni77-2019.xml");
+			System.out.println("java -jar patchApi.jar patch data/xml/ZakonOInformacionojBezbednosti.xml data/xml/ZakonOIzmeniIDopuni77-2019.xml");
 			System.out.println();
 			System.out.println("Compare patter:");
-			System.out.println("java -jar patchApi compare FILE1 FILE2");
+			System.out.println("java -jar patchApi.jar compare FILE1 FILE2");
 			System.out.println("Compare example:");
-			System.out.println("java -jar patchApi compare data/xml/ZakonOInformacionojBezbednosti.xml data/xml/ZakonOInformacionojBezbednosti.xml");
+			System.out.println("java -jar patchApi.jar compare data/xml/ZakonOInformacionojBezbednosti.xml data/xml/ZakonOInformacionojBezbednosti.xml");
 			System.out.println();
 			System.out.println("Version pattern:");
-			System.out.println("[NOTE] Version checks all files in directory [data/xml] that include SEARCH_FILE_NAME");
-			System.out.println("java -jar patchApi version SEARCH_FILE_NAME date");
-			System.out.println("Compare example:");
-			System.out.println("java -jar patchApi version ZakonOInformacionojBezbednosti 02-02-2018");
+			System.out.println("[NOTE] Version takes all modification files in directory [data/xml]");
+			System.out.println("java -jar patchApi.jar version FILE date");
+			System.out.println("Version example:");
+			System.out.println("java -jar patchApi.jar version ZakonOInformacionojBezbednosti.xml 02-02-2018");
 			System.out.println();
 			return;
 		}

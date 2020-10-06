@@ -776,75 +776,123 @@ public class XmlRWUtil implements ErrorHandler{
 	public void showActiveDocument(String fileName, Date givenDate) {
 		
 		File directory = new File("data/xml");
+		Document finalDocument = buildDocument("data/xml/" + fileName);
+		if(finalDocument == null) return;
 		
-		String[] files = directory.list();
-		
-		ArrayList<File> fittingFiles = new ArrayList<File>();
-		
-		for(int i = 0; i<files.length; i++) {
-			if((new File("data/xml/" + files[i])).isFile()) {
-				if(files[i].contains(fileName)) {
-					fittingFiles.add(new File("data/xml/" + files[i]));
-				}
-			}
-		}			
-		
-		if(fittingFiles.size() == 0) {
-			System.out.println("[WARN] Didn't find any files containing < " + fileName + " >");
+		Node infoNode;
+		String finalDocumentId= "";
+		try {
+			infoNode = finalDocument.getElementsByTagName("FRBRthis").item(0);
+			finalDocumentId = ((Element) infoNode).getAttribute("value");
+		}catch(Exception e) {
+			System.out.println("[ERR] Root document < " + fileName + " > missing FRBRthis tag.");
 			return;
 		}
 		
-		Document document;
-		NodeList eventNodes;
-		Date docDate;
-		int eventRefCount;
-		ArrayList<Date> fittingFilesDate = new ArrayList<Date>();
-		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+		String[] files = directory.list();
 		
+		ArrayList<File> modificationFiles = new ArrayList<File>();
+		
+		for(int i = 0; i<files.length; i++) {
+			if((new File("data/xml/" + files[i])).isFile()) {
+				if((files[i].toLowerCase()).contains("zakonoizmeniidopuni")) {
+					modificationFiles.add(new File("data/xml/" + files[i]));
+				}
+			}
+		}
+		
+		//System.out.println(finalDocumentId + " - " +  modificationFiles.size());
+		
+		if(modificationFiles.size() == 0) {
+			System.out.println("[WARN] Didn't find any modification files");
+			return;
+		}
+		
+		Date docDate;
+		Element docDateElement;
+		String documentId;
+		ArrayList<Date> modificationFilesDate = new ArrayList<Date>();
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 		ArrayList<File> removeFiles = new ArrayList<File>();
+		
+		for (File file : modificationFiles) {
+			this.document = buildDocument(file.getAbsolutePath());
+			this.loadAllElements();
+			docDateElement = this.getElementWithEid("doc-date");
 
-		for (File file : fittingFiles) {
-			document = buildDocument(file.getAbsolutePath());
+			try {
+				
+			infoNode = this.document.getElementsByTagName("destination").item(0);
+			documentId = ((Element) infoNode).getAttribute("href");
 			
-			eventNodes = document.getElementsByTagName("eventRef");
-			eventRefCount = eventNodes.getLength();
-			
-			if(eventRefCount == 0) {
+			if(!finalDocumentId.contains(documentId.split("~")[0])) {
 				removeFiles.add(file);
 				continue;
 			}
-			
-			try {
-				docDate = formatter.parse(((Element)eventNodes.item(eventRefCount-1)).getAttribute("date"));
-				fittingFilesDate.add(docDate);
-			} catch (ParseException e) {
-				System.out.println("[WARN] Counldn't parse date from <eventRef/>");
+			modificationFilesDate.add(formatter.parse(docDateElement.getAttribute("date")));
+			}catch(Exception e) {
+				System.out.println("[ERR] Parsing modification document went wrong. < " + file.getAbsolutePath() + " >");
+				removeFiles.add(file);
+			}
+		}
+		
+		// Remove files with bad expected structure
+		for (File file : removeFiles) {
+			modificationFiles.remove(file);
+		}
+		
+		removeFiles.clear();
+		// Remove all non-valid modifications ( after given date )
+		for (Date date : modificationFilesDate) {
+			if(date.after(givenDate)) {
+				removeFiles.add(modificationFiles.get(modificationFilesDate.indexOf(date)));
 			}
 		}
 		
 		for (File file : removeFiles) {
-			fittingFiles.remove(file);
+			modificationFilesDate.remove(modificationFiles.indexOf(file));
+			modificationFiles.remove(file);
 		}
 		
-		String fittingFile = "none";
-		Date fittingDate = new Date(1);
-		for(int i = 0; i < fittingFiles.size(); i++) {
-			if(fittingDate.before(fittingFilesDate.get(i)) && givenDate.after(fittingFilesDate.get(i))) {
-				fittingFile = fittingFiles.get(i).getAbsolutePath();
-				fittingDate = fittingFilesDate.get(i);
+		if(modificationFiles.size()== 0) {
+			System.out.println("[INFO] There are no modifications made for this document before given date");
+		}
+		
+		Date minDate;
+		File minDateFile;
+		ArrayList<Change> changes;
+		while(modificationFiles.size() > 0) {
+			minDate = modificationFilesDate.get(0);
+			minDateFile = modificationFiles.get(0);
+			changes = new ArrayList<Change>();
+			
+			for(int i = 1; i < modificationFilesDate.size(); i++) {
+				if(minDate.after(modificationFilesDate.get(i))) {
+					minDate = modificationFilesDate.get(i);
+					minDateFile = modificationFiles.get(i);
+				}
 			}
+			
+			modificationFilesDate.remove(minDate);
+			System.out.println("[INFO] Applying changes from date : "  + formatter.format(minDate));
+			modificationFiles.remove(minDateFile);
+			
+			this.document = buildDocument(minDateFile.getAbsolutePath());
+			this.loadAllElements();
+			docDateElement = this.getElementWithEid("doc-date");
+			changes = this.getChanges();
+			this.document = finalDocument;
+			this.loadAllElements();
+			applyChanges(changes);
+			updateLifecycle(docDateElement);
 		}
 		
-		if(fittingFile.contains("none")) {
-			System.out.println("[INFO] There is no valid document for given date");
-			return;
-		}
+		document = finalDocument;
 		
-		displayDocument(fittingFile);
+		displayDocument();
 	}
 	
-	private void displayDocument(String fileName) {
-		document = buildDocument(fileName);
+	private void displayDocument() {
 		String text = document.getDocumentElement().getTextContent();
 		
 		text = text.replaceAll("\\s{2,}\\n", "\n");
